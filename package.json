@@ -1,0 +1,14 @@
+{
+  "name": "teams-recursive-download",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "download": "node download-teams-files.mjs",
+    "control": "node sync-control-server.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@azure/msal-node": "^3.8.1",
+    "playwright": "^1.54.0"
+  }
+}

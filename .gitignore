@@ -1,0 +1,32 @@
+# Dependencies and local runtime state
+node_modules/
+.downloads/
+.teams-browser-profile/
+.teams-scheduled-profile/
+.gaia-kfc/
+.DS_Store
+
+# Authentication, sync state, locks, and logs
+.graph-msal-cache.json
+.sharepoint-sync-manifest.json
+.sharepoint-sync.lockdir/
+.teams-sync-manifest.json
+.teams-sync.lockdir/
+.sync-control.lockdir/
+*.log
+*.lockdir/
+*.tmp
+*.part
+
+# Downloaded SharePoint customer documents
+00_PMO/
+10_Project_Initiation & Discovery/
+20_Change_Management/
+30_Design/
+40_Build/
+45_Infra & Architecture/
+50_Integration/
+60_Data Migration/
+70_Training/
+80_Deployment & Go-live/
+Shared Documents/
