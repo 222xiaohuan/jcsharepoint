@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>CHROME_PATH</key>
+		<string>/Applications/Google Chrome.app/Contents/MacOS/Google Chrome</string>
+		<key>HEADLESS</key>
+		<string>false</string>
+		<key>HOME</key>
+		<string>/Users/emily</string>
+		<key>LOGNAME</key>
+		<string>emily</string>
+		<key>PATH</key>
+		<string>/usr/local/bin:/usr/bin:/bin</string>
+		<key>TEAMS_PROFILE</key>
+		<string>/Users/emily/Documents/jconedrive/.teams-browser-profile</string>
+		<key>TMPDIR</key>
+		<string>/tmp</string>
+		<key>USER</key>
+		<string>emily</string>
+	</dict>
+	<key>Label</key>
+	<string>com.emily.jconedrive.teams-sync</string>
+	<key>LimitLoadToSessionType</key>
+	<string>Aqua</string>
+	<key>ProcessType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/local/bin/node</string>
+		<string>/Users/emily/Documents/jconedrive/schedule-trigger.mjs</string>
+	</array>
+	<key>StandardErrorPath</key>
+	<string>/Users/emily/Documents/jconedrive/.teams-sync-error.log</string>
+	<key>StandardOutPath</key>
+	<string>/Users/emily/Documents/jconedrive/.teams-sync.log</string>
+	<key>StartCalendarInterval</key>
+	<array>
+		<dict>
+			<key>Hour</key>
+			<integer>8</integer>
+			<key>Minute</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>Hour</key>
+			<integer>12</integer>
+			<key>Minute</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>ThrottleInterval</key>
+	<integer>60</integer>
+	<key>WorkingDirectory</key>
+	<string>/</string>
+</dict>
+</plist>

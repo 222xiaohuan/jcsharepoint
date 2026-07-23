@@ -11,6 +11,7 @@ node_modules/
 .sharepoint-sync-manifest.json
 .sharepoint-sync.lockdir/
 .teams-sync-manifest.json
+.sync-schedule-state.json
 .teams-sync.lockdir/
 .sync-control.lockdir/
 *.log

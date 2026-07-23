@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>HOME</key>
+		<string>/Users/emily</string>
+		<key>PATH</key>
+		<string>/usr/local/bin:/usr/bin:/bin</string>
+	</dict>
+	<key>Label</key>
+	<string>com.emily.jconedrive.control</string>
+	<key>KeepAlive</key>
+	<true/>
+	<key>LimitLoadToSessionType</key>
+	<string>Aqua</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/local/bin/node</string>
+		<string>/Users/emily/Documents/jconedrive/sync-control-server.mjs</string>
+	</array>
+	<key>ProcessType</key>
+	<string>Interactive</string>
+	<key>StandardErrorPath</key>
+	<string>/Users/emily/Documents/jconedrive/.sync-control-error.log</string>
+	<key>StandardOutPath</key>
+	<string>/Users/emily/Documents/jconedrive/.sync-control-daemon.log</string>
+	<key>WorkingDirectory</key>
+	<string>/Users/emily/Documents/jconedrive</string>
+</dict>
+</plist>
